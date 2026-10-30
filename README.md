@@ -25,22 +25,22 @@ node scripts/browser-check.mjs http://127.0.0.1:4321
 
 Each locale has a complete home page, ten-section privacy policy and eight-section support guide. The files in `src/data/` share a checked schema, with no English fallback. `src/data/locales.ts` controls language order and paths.
 
-| Language | Home | Privacy | Support |
-| --- | --- | --- | --- |
-| English | `/` | `/privacy/` | `/support/` |
-| 简体中文 | `/zh-hans/` | `/zh-hans/privacy/` | `/zh-hans/support/` |
-| 繁體中文 | `/zh-hant/` | `/zh-hant/privacy/` | `/zh-hant/support/` |
-| 日本語 | `/ja/` | `/ja/privacy/` | `/ja/support/` |
-| 한국어 | `/ko/` | `/ko/privacy/` | `/ko/support/` |
-| Français | `/fr/` | `/fr/privacy/` | `/fr/support/` |
-| Deutsch | `/de/` | `/de/privacy/` | `/de/support/` |
-| Español | `/es/` | `/es/privacy/` | `/es/support/` |
-| Português (Brasil) | `/pt-br/` | `/pt-br/privacy/` | `/pt-br/support/` |
-| Русский | `/ru/` | `/ru/privacy/` | `/ru/support/` |
-| العربية | `/ar/` | `/ar/privacy/` | `/ar/support/` |
-| Bahasa Indonesia | `/id/` | `/id/privacy/` | `/id/support/` |
-| ไทย | `/th/` | `/th/privacy/` | `/th/support/` |
-| Tiếng Việt | `/vi/` | `/vi/privacy/` | `/vi/support/` |
+| Language           | Home        | Privacy             | Support             |
+| ------------------ | ----------- | ------------------- | ------------------- |
+| English            | `/`         | `/privacy/`         | `/support/`         |
+| 简体中文           | `/zh-hans/` | `/zh-hans/privacy/` | `/zh-hans/support/` |
+| 繁體中文           | `/zh-hant/` | `/zh-hant/privacy/` | `/zh-hant/support/` |
+| 日本語             | `/ja/`      | `/ja/privacy/`      | `/ja/support/`      |
+| 한국어             | `/ko/`      | `/ko/privacy/`      | `/ko/support/`      |
+| Français           | `/fr/`      | `/fr/privacy/`      | `/fr/support/`      |
+| Deutsch            | `/de/`      | `/de/privacy/`      | `/de/support/`      |
+| Español            | `/es/`      | `/es/privacy/`      | `/es/support/`      |
+| Português (Brasil) | `/pt-br/`   | `/pt-br/privacy/`   | `/pt-br/support/`   |
+| Русский            | `/ru/`      | `/ru/privacy/`      | `/ru/support/`      |
+| العربية            | `/ar/`      | `/ar/privacy/`      | `/ar/support/`      |
+| Bahasa Indonesia   | `/id/`      | `/id/privacy/`      | `/id/support/`      |
+| ไทย                | `/th/`      | `/th/privacy/`      | `/th/support/`      |
+| Tiếng Việt         | `/vi/`      | `/vi/privacy/`      | `/vi/support/`      |
 
 The website is multilingual. **The native app interface is currently Chinese.** Product descriptions and screenshot captions state this explicitly.
 
@@ -51,6 +51,14 @@ Built-in effects are free. Creating, editing and temporarily previewing custom e
 Privacy text is grounded in read-only inspection of the native app's mouse monitor, transparent overlay, settings, preset/asset storage and StoreKit implementation. There is no global keyboard monitoring, screen capture, pointer replacement, mouse-history recording, developer payment server, analytics, account system, advertising or website form. Hosting logs are separately disclosed. Support uses `mailto:`.
 
 ## Assets and design
+
+To refresh all four current captures:
+
+```sh
+node scripts/import-screenshots.mjs /absolute/path/to/current/raw/screenshots
+```
+
+The importer requires `library.png`, `editor.png`, `settings.png` and `purchase.png`. It writes size metadata to prevent layout shifts and source SHA-256 values to `SCREENSHOTS.json`.
 
 The app icon is the original MouseEffect icon. Current app screenshots are copied from the native project's release capture directory and optimized to WebP without altering the UI. The repository includes no generated product mockups. The canvas is a labeled website demonstration, not the native rendering engine. Rendering is bounded, stops offscreen/when hidden, has explicit pause and keyboard-accessible burst controls, and starts paused for `prefers-reduced-motion`.
 

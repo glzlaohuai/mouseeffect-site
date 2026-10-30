@@ -72,7 +72,8 @@
       "editor": "Editor kustom dengan pengaturan gerakan dan partikel dalam bahasa Mandarin",
       "settings": "Pengaturan intensitas dan pengurangan gerakan dalam bahasa Mandarin",
       "purchase": "Panel pembelian satu kali efek kustom dalam bahasa Mandarin"
-    }
+    },
+    "purchasePreview": "Lihat layar pembelian"
   },
   "privacy": {
     "intro": "Kebijakan ini mencakup aplikasi macOS MouseEffect dan situs Hiimob Apps ini. Efek diproses di perangkat. Informasi terbatas terkait pembelian, hosting, dan bantuan dijelaskan di bawah.",

@@ -72,7 +72,8 @@
       "editor": "MouseEffect 中文自訂效果編輯器，顯示滑鼠操作與粒子參數",
       "settings": "MouseEffect 中文一般設定，顯示強度與減少動態效果選項",
       "purchase": "MouseEffect 中文一次性購買自訂效果面板"
-    }
+    },
+    "purchasePreview": "檢視 App 內購買畫面"
   },
   "privacy": {
     "intro": "本政策適用於 Hiimob Apps 提供的 MouseEffect macOS 應用程式與本網站。效果在本機處理；以下說明購買、網站託管和支援所涉及的有限資訊。",

@@ -72,7 +72,8 @@
       "editor": "Editor für eigene Effekte mit Aktions- und Partikeleinstellungen auf Chinesisch",
       "settings": "Allgemeine Einstellungen für Stärke und reduzierte Bewegung auf Chinesisch",
       "purchase": "Einmalkauf für eigene Effekte mit chinesischer Oberfläche"
-    }
+    },
+    "purchasePreview": "Kaufansicht ansehen"
   },
   "privacy": {
     "intro": "Diese Erklärung gilt für die macOS-App MouseEffect und diese Website von Hiimob Apps. Effekte werden lokal verarbeitet. Hier erklären wir die begrenzte Datenverarbeitung bei Käufen, Hosting und Support.",

@@ -72,7 +72,8 @@
       "editor": "Editor personalizado con controles de gestos y partículas, en chino",
       "settings": "Ajustes de intensidad y reducción de movimiento, en chino",
       "purchase": "Panel de compra única de efectos personalizados, en chino"
-    }
+    },
+    "purchasePreview": "Ver la pantalla de compra"
   },
   "privacy": {
     "intro": "Esta política cubre la app macOS MouseEffect y este sitio de Hiimob Apps. Los efectos se procesan en el dispositivo. A continuación explicamos la información limitada relacionada con compras, alojamiento y soporte.",

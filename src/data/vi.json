@@ -72,7 +72,8 @@
       "editor": "Trình sửa tùy chỉnh với thông số thao tác và hạt bằng tiếng Trung",
       "settings": "Cài đặt cường độ và giảm chuyển động bằng tiếng Trung",
       "purchase": "Bảng mua một lần hiệu ứng tùy chỉnh bằng tiếng Trung"
-    }
+    },
+    "purchasePreview": "Xem màn hình mua"
   },
   "privacy": {
     "intro": "Chính sách này áp dụng cho ứng dụng macOS MouseEffect và trang web này do Hiimob Apps vận hành. Hiệu ứng được xử lý cục bộ. Dưới đây là thông tin hạn chế liên quan đến mua hàng, lưu trữ web và hỗ trợ.",

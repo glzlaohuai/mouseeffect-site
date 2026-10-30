@@ -1,10 +1,20 @@
 ---
-import Home from '../components/Home.astro';
-import Document from '../components/Document.astro';
-import {locales,pathFor,type PageKind} from '../data/locales';
+import Home from "../components/Home.astro";
+import Document from "../components/Document.astro";
+import { locales, pathFor, type PageKind } from "../data/locales";
 export function getStaticPaths() {
- return locales.flatMap(locale => (['home','privacy','support'] as PageKind[]).map(page => ({params:{path:pathFor(locale.code,page).slice(1,-1)||undefined},props:{locale,page}})));
+  return locales.flatMap((locale) =>
+    (["home", "privacy", "support"] as PageKind[]).map((page) => ({
+      params: { path: pathFor(locale.code, page).slice(1, -1) || undefined },
+      props: { locale, page },
+    })),
+  );
 }
-const {locale,page} = Astro.props;
+const { locale, page } = Astro.props;
 ---
-{page==='home' ? <Home locale={locale} /> : <Document locale={locale} page={page} />}
+
+{page === "home" ? (
+  <Home locale={locale} />
+) : (
+  <Document locale={locale} page={page} />
+)}

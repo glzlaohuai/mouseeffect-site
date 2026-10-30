@@ -1,0 +1,42 @@
+[
+  {
+    "file": "library.png",
+    "sha256": "dffd0708ea68be6eb6347fad362d875de53fa16c844685539752c5d00279c75f",
+    "originalSize": {
+      "width": 2784,
+      "height": 1824
+    },
+    "output": "library.webp",
+    "outputBytes": 47012
+  },
+  {
+    "file": "editor.png",
+    "sha256": "16cb62f609e2fed2850e2875ba03f7a507bdbe61235620fe369d14777cd26f95",
+    "originalSize": {
+      "width": 2784,
+      "height": 1824
+    },
+    "output": "editor.webp",
+    "outputBytes": 50740
+  },
+  {
+    "file": "settings.png",
+    "sha256": "d3961c8963eea8c02443a65c7fa96d71447e3c32032e0b1d038393795edc9d2e",
+    "originalSize": {
+      "width": 2784,
+      "height": 1824
+    },
+    "output": "settings.webp",
+    "outputBytes": 52076
+  },
+  {
+    "file": "purchase.png",
+    "sha256": "69c09cbfd29b11e78a314ac821b6ec50510f0cabc3870d3743b5829427ec8fbf",
+    "originalSize": {
+      "width": 2784,
+      "height": 1824
+    },
+    "output": "purchase.webp",
+    "outputBytes": 49688
+  }
+]

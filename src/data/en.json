@@ -72,7 +72,8 @@
       "editor": "The MouseEffect custom effect editor with gesture and particle controls, in Chinese",
       "settings": "MouseEffect’s general settings for intensity and reduced motion, in Chinese",
       "purchase": "MouseEffect’s one-time custom effects purchase panel in Chinese"
-    }
+    },
+    "purchasePreview": "View the purchase screen"
   },
   "privacy": {
     "intro": "This policy covers the MouseEffect macOS app and this website, operated by Hiimob Apps. We keep the app’s effects local and explain the limited information involved in purchases, hosting and support below.",
