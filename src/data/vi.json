@@ -1,0 +1,163 @@
+{
+  "name": "Tiếng Việt",
+  "lang": "vi",
+  "dir": "ltr",
+  "nav": {
+    "home": "Tổng quan",
+    "privacy": "Quyền riêng tư",
+    "support": "Hỗ trợ",
+    "language": "Ngôn ngữ",
+    "skip": "Chuyển đến nội dung",
+    "back": "Về trang tổng quan",
+    "contact": "Hỗ trợ qua email"
+  },
+  "common": {
+    "coming": "Sắp có trên Mac App Store",
+    "compat": "Dành cho macOS 27.0 trở lên",
+    "uiNote": "Giao diện ứng dụng hiện bằng tiếng Trung.",
+    "screensNote": "Ảnh chụp ứng dụng thực tế với giao diện tiếng Trung.",
+    "updated": "Có hiệu lực từ ngày 30 tháng 10 năm 2026",
+    "contents": "Trong trang này"
+  },
+  "home": {
+    "eyebrow": "Một chút niềm vui bên con trỏ.",
+    "title": "Mỗi chuyển động,",
+    "accent": "thêm nét riêng bạn.",
+    "description": "Vệt sáng nhẹ, hạt tung ra khi nhấp và dấu ấn của riêng bạn. MouseEffect thêm niềm vui cho Mac trong khi con trỏ vẫn hoạt động như thường lệ.",
+    "explore": "Khám phá MouseEffect",
+    "demoTitle": "Không gian để thử chơi",
+    "demoHint": "Di chuyển, nhấp hoặc kéo ở đây. Trên điện thoại, chạm hoặc vuốt.",
+    "demoPause": "Tạm dừng hiệu ứng",
+    "demoPlay": "Bật hiệu ứng",
+    "demoBurst": "Thử chùm hạt",
+    "demoNote": "Bản minh họa trên web. Ứng dụng Mac có nhiều tùy chỉnh hơn.",
+    "gestures": [
+      "Di chuyển",
+      "Nhấp",
+      "Nhấp đúp",
+      "Nhấp phải",
+      "Kéo"
+    ],
+    "library": [
+      "Bắt đầu thật đơn giản.",
+      "Chọn một mẫu có sẵn cho di chuyển, nhấp, nhấp đúp, nhấp phải và kéo. Con trỏ hệ thống vẫn giữ nguyên."
+    ],
+    "editor": [
+      "Chi tiết nhỏ. Dấu ấn riêng.",
+      "Bắt đầu từ mẫu rồi tùy chỉnh theo ý bạn. Tạo, sửa và xem trước tạm thời hiệu ứng tùy chỉnh hoàn toàn miễn phí.",
+      "Dùng văn bản, Emoji, PNG, JPEG hoặc SVG làm hạt.",
+      "Chỉnh màu, kích thước, số lượng, tốc độ, độ tỏa, tuổi thọ, trọng lực và xoay cho từng thao tác."
+    ],
+    "settings": [
+      "Vui khi bạn muốn. Yên khi cần tập trung.",
+      "Bật tắt từ thanh menu và chọn cường độ dễ chịu. Theo tùy chọn Giảm chuyển động của hệ thống hoặc luôn giảm chuyển động.",
+      "Một công tắc tạm dừng mọi hiệu ứng.",
+      "Sự kiện chuột được hiển thị ngay trên máy. Không ghi lại hoặc tải lên đường đi con trỏ."
+    ],
+    "pricing": [
+      "Bắt đầu miễn phí. Tạo phong cách riêng.",
+      "Hiệu ứng có sẵn miễn phí. Thử trình sửa trước khi mở khóa lưu.",
+      "Bao gồm miễn phí",
+      "Tất cả mẫu có sẵn, tạo, sửa và xem trước tạm thời. Bản nháp chưa lưu chỉ tồn tại trong phiên chạy ứng dụng hiện tại.",
+      "Mở khóa một lần",
+      "Một giao dịch mua trong ứng dụng mở khóa lưu và kích hoạt chính thức hiệu ứng tùy chỉnh. Có thể khôi phục bằng cùng Tài khoản Apple.",
+      "Giá cơ sở US$4.99. App Store hiển thị giá địa phương và thuế. Không đăng ký định kỳ."
+    ],
+    "privacy": [
+      "Màn hình của bạn vẫn là của bạn.",
+      "Không tài khoản, SDK phân tích hay quảng cáo. Sự kiện chuột thành hiệu ứng trên Mac rồi biến mất. Tìm hiểu dữ liệu nào ở lại thiết bị."
+    ],
+    "alts": {
+      "library": "Thư viện hiệu ứng có sẵn của MouseEffect với giao diện tiếng Trung",
+      "editor": "Trình sửa tùy chỉnh với thông số thao tác và hạt bằng tiếng Trung",
+      "settings": "Cài đặt cường độ và giảm chuyển động bằng tiếng Trung",
+      "purchase": "Bảng mua một lần hiệu ứng tùy chỉnh bằng tiếng Trung"
+    }
+  },
+  "privacy": {
+    "intro": "Chính sách này áp dụng cho ứng dụng macOS MouseEffect và trang web này do Hiimob Apps vận hành. Hiệu ứng được xử lý cục bộ. Dưới đây là thông tin hạn chế liên quan đến mua hàng, lưu trữ web và hỗ trợ.",
+    "sections": [
+      [
+        "Sự kiện chuột chỉ để hiển thị tức thời",
+        "Ứng dụng quan sát toàn hệ thống việc di chuyển, nhấn và thả nút trái, kéo bằng nút trái và nhấn nút phải. Từ đó nhận biết nhấp và nhấp đúp. Vị trí, thời gian và số lần nhấp chỉ dùng trong bộ nhớ để hiển thị cục bộ ngay lập tức. Không lưu lịch sử con trỏ hoặc tải các sự kiện lên máy chủ."
+      ],
+      [
+        "Những gì ứng dụng không theo dõi",
+        "MouseEffect không theo dõi bàn phím toàn hệ thống, chụp màn hình, đọc nội dung màn hình, thay thế hoặc chặn con trỏ. Cửa sổ hiệu ứng trong suốt cho phép thao tác chuột đi qua. Việc gõ bình thường trong ô văn bản của ứng dụng chỉ dùng cho nội dung bạn chủ động nhập."
+      ],
+      [
+        "Cài đặt, mẫu và tệp nhập",
+        "Mẫu đã chọn, cường độ và tùy chọn chuyển động được lưu cục bộ bằng UserDefaults. Mẫu tùy chỉnh đã lưu và tài nguyên nhập nằm trong Application Support thuộc vùng sandbox cục bộ của ứng dụng. Ảnh được sao chép vào đó, không tải lên cho chúng tôi. Bản nháp tạm không được lưu thành mẫu và chỉ tồn tại trong phiên hiện tại. Tệp nhập có thể còn lại đến khi ứng dụng dọn dẹp."
+      ],
+      [
+        "Apple xử lý giao dịch",
+        "StoreKit và App Store xử lý thông tin sản phẩm, thanh toán, xác minh và khôi phục. Ứng dụng đọc quyền đã xác minh để mở lưu và kích hoạt. Chúng tôi không có máy chủ thanh toán và không nhận thông tin thẻ. Apple xử lý dữ liệu mua theo chính sách riêng."
+      ],
+      [
+        "Không tài khoản, quảng cáo hay phân tích",
+        "Ứng dụng và web không có tài khoản, quảng cáo hay SDK phân tích. Chúng tôi không bán thông tin cá nhân, lập hồ sơ khách truy cập hoặc theo dõi qua các trang. Web không dùng cookie phân tích hay bộ nhớ cục bộ để theo dõi và không có biểu mẫu thu thập thông tin."
+      ],
+      [
+        "Lưu trữ trang web",
+        "GitHub Pages lưu trữ trang web tĩnh này. GitHub có thể xử lý nhật ký lưu trữ và bảo mật cơ bản, gồm IP và thông tin kỹ thuật yêu cầu, theo tuyên bố quyền riêng tư của họ. Điều này tách biệt với hiển thị chuột cục bộ. Phông chữ và tài nguyên được tải mà không có phân tích bên thứ ba."
+      ],
+      [
+        "Hỗ trợ qua email",
+        "Khi gửi đến 494763134@qq.com, chúng tôi nhận địa chỉ cùng nội dung và tệp đính kèm bạn tự nguyện cung cấp. Chỉ dùng để trả lời và giải quyết yêu cầu. Nhà cung cấp email cũng xử lý dữ liệu gửi theo chính sách của họ. Đừng gửi thông tin đăng nhập thanh toán hoặc dữ liệu nhạy cảm không cần thiết."
+      ],
+      [
+        "Lưu giữ, xóa và lựa chọn",
+        "Dữ liệu cục bộ ở trên Mac đến khi bạn xóa hoặc ứng dụng dọn tài nguyên không dùng. Bạn có thể xóa mẫu tùy chỉnh trong ứng dụng. Chỉ gỡ ứng dụng có thể còn dữ liệu sandbox; hãy liên hệ để được hướng dẫn xóa. Có thể dừng hiệu ứng bất cứ lúc nào. Thư hỗ trợ chỉ được giữ khi cần giải quyết và thực hiện nghĩa vụ pháp lý. Bạn có thể yêu cầu truy cập, sửa hoặc xóa qua email theo luật áp dụng. Apple và GitHub quản lý hồ sơ của riêng họ."
+      ],
+      [
+        "Bảo mật và trẻ em",
+        "Xử lý cục bộ giảm truyền dữ liệu nhưng không hệ thống lưu trữ hay email nào an toàn tuyệt đối. Dịch vụ không hướng đến trẻ dưới 13 tuổi và chúng tôi không cố ý thu thập dữ liệu của trẻ. Phụ huynh có thể liên hệ về thông tin đã gửi cho hỗ trợ."
+      ],
+      [
+        "Thay đổi và liên hệ",
+        "Chúng tôi sẽ cập nhật trang và ngày hiệu lực nếu cách xử lý thay đổi. Câu hỏi hoặc yêu cầu quyền riêng tư xin gửi Hiimob Apps tại 494763134@qq.com."
+      ]
+    ]
+  },
+  "support": {
+    "intro": "Một vài cách để hiệu ứng dễ chịu hơn. MouseEffect cần macOS 27.0 trở lên và sắp ra mắt trên Mac App Store. Giao diện hiện bằng tiếng Trung.",
+    "sections": [
+      [
+        "Không thấy hiệu ứng",
+        "Kiểm tra công tắc chính trong ứng dụng hoặc thanh menu rồi chọn mẫu có sẵn. Đảm bảo hiệu ứng của thao tác đã bật, số hạt và cường độ không quá thấp. Đóng rồi mở lại nếu cần. Hiệu ứng chỉ dùng chuột không yêu cầu quyền Trợ năng hay Giám sát đầu vào."
+      ],
+      [
+        "Tạm dừng và giảm cường độ",
+        "Công tắc thanh menu dừng tất cả hiệu ứng. Giảm cường độ trong cài đặt chung, theo giảm chuyển động của hệ thống hoặc luôn giảm. Demo web có nút riêng và bắt đầu ở trạng thái dừng nếu trình duyệt yêu cầu giảm chuyển động."
+      ],
+      [
+        "Bản nháp miễn phí và mua một lần",
+        "Hiệu ứng có sẵn, tạo, sửa và xem trước tạm thời đều miễn phí. Bản nháp chưa lưu chỉ tồn tại trong phiên hiện tại. Lưu và kích hoạt chính thức cần mua mở khóa một lần. Khi quyền không khả dụng, mẫu đã lưu vẫn hiển thị và xóa được nhưng không kích hoạt được."
+      ],
+      [
+        "Khôi phục giao dịch",
+        "Mở bảng mua và chọn Khôi phục giao dịch (恢复购买). Dùng Tài khoản Apple đã mua và kiểm tra mạng. Apple xác minh quyền. Nếu đang chờ xử lý, hãy chờ xác nhận. Đừng mua lại để sửa lỗi khôi phục; liên hệ hỗ trợ nếu vẫn gặp vấn đề."
+      ],
+      [
+        "Nhập văn bản, Emoji và ảnh",
+        "Chọn văn bản hoặc Emoji trong trình sửa, hoặc nhập PNG, JPEG, SVG hợp lệ. Tệp gốc tối đa 30 MB và phải đáp ứng giới hạn kích thước ảnh. Ảnh raster được thu nhỏ với cạnh dài tối đa 512 pixel. Nếu lỗi, thử ảnh nhỏ hơn hoặc xuất lại định dạng hỗ trợ. Tài nguyên được sao chép cục bộ."
+      ],
+      [
+        "Dữ liệu cục bộ",
+        "Cài đặt, mẫu và tài nguyên ở trên Mac, không có đồng bộ đám mây của nhà phát triển. Xóa mẫu không cần trong thư viện. Hỏi hỗ trợ trước khi xóa toàn bộ dữ liệu hoặc đổi Mac. Chỉ gỡ ứng dụng có thể còn dữ liệu sandbox."
+      ],
+      [
+        "Phát hành và ngôn ngữ",
+        "Ứng dụng chưa phát hành. Trang web sẽ cập nhật khi tải được. Web có 14 ngôn ngữ, còn ứng dụng gốc hiện bằng tiếng Trung. US$4.99 là giá cơ sở cho mua một lần. Giá địa phương thực tế hiển thị ở App Store."
+      ],
+      [
+        "Liên hệ Hiimob Apps",
+        "Gửi email đến 494763134@qq.com với phiên bản macOS và ứng dụng, vấn đề và kết quả mong đợi. Ảnh chụp là tùy chọn; xóa thông tin riêng trước khi gửi. Không gửi mật khẩu hay dữ liệu thanh toán. Thông tin chỉ dùng để xử lý hỗ trợ."
+      ]
+    ]
+  },
+  "error": [
+    "Không tìm thấy trang này.",
+    "Về MouseEffect hoặc chọn ngôn ngữ bên dưới."
+  ]
+}

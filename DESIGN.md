@@ -18,7 +18,7 @@ Compact header, asymmetric split hero with a large interactive particle stage, a
 
 ## Interaction and accessibility
 
-Native language select with a no-JavaScript submit action through a localized language directory, keyboard-operable demo controls, visible focus, skip link, semantic landmarks, stable image dimensions. Particle rendering is capped, stops offscreen and when hidden, is paused initially for reduced-motion preference, and never blocks clicks or page scrolling. Mobile stacks text before imagery; logical CSS properties handle RTL.
+Native language select with no-JavaScript links in the footer language directory, keyboard-operable demo controls, visible focus, skip link, semantic landmarks, stable image dimensions. Particle rendering is capped, stops offscreen and when hidden, is paused initially for reduced-motion preference, and never blocks clicks or page scrolling. Mobile stacks text before imagery; logical CSS properties handle RTL.
 
 ## Confirmed brief
 

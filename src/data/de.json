@@ -1,0 +1,163 @@
+{
+  "name": "Deutsch",
+  "lang": "de",
+  "dir": "ltr",
+  "nav": {
+    "home": "Überblick",
+    "privacy": "Datenschutz",
+    "support": "Hilfe",
+    "language": "Sprache",
+    "skip": "Zum Inhalt",
+    "back": "Zurück zum Überblick",
+    "contact": "Support per E-Mail"
+  },
+  "common": {
+    "coming": "Bald im Mac App Store",
+    "compat": "Für macOS 27.0 oder neuer",
+    "uiNote": "Die App-Oberfläche ist derzeit auf Chinesisch.",
+    "screensNote": "Echte App-Aufnahmen mit chinesischer Oberfläche.",
+    "updated": "Gültig ab 30. Oktober 2026",
+    "contents": "Auf dieser Seite"
+  },
+  "home": {
+    "eyebrow": "Ein bisschen Freude am Mauszeiger.",
+    "title": "Jede Bewegung,",
+    "accent": "ein bisschen mehr du.",
+    "description": "Sanfte Spuren, Partikel beim Klicken, deine eigene kleine Note. MouseEffect bringt spielerische Effekte auf deinen Mac. Dein Mauszeiger funktioniert wie gewohnt.",
+    "explore": "MouseEffect entdecken",
+    "demoTitle": "Hier kannst du spielen",
+    "demoHint": "Bewegen, klicken oder ziehen. Auf dem Handy tippen oder wischen.",
+    "demoPause": "Effekte pausieren",
+    "demoPlay": "Effekte abspielen",
+    "demoBurst": "Partikel ausprobieren",
+    "demoNote": "Interaktive Website-Demo. Die Mac-App bietet mehr Einstellungen.",
+    "gestures": [
+      "Bewegen",
+      "Klicken",
+      "Doppelklick",
+      "Rechtsklick",
+      "Ziehen"
+    ],
+    "library": [
+      "Ein guter erster Schritt.",
+      "Wähle eine integrierte Vorlage für Bewegung, Klick, Doppelklick, Rechtsklick und Ziehen. Dein normaler Systemzeiger bleibt erhalten."
+    ],
+    "editor": [
+      "Kleine Details. Deine Handschrift.",
+      "Beginne mit einer Vorlage und gestalte sie um. Eigene Effekte erstellen, bearbeiten und vorübergehend testen ist kostenlos.",
+      "Nutze Text, Emoji, PNG, JPEG oder SVG als Partikel.",
+      "Passe Farbe, Größe, Anzahl, Tempo, Streuung, Lebensdauer, Schwerkraft und Drehung für jede Aktion an."
+    ],
+    "settings": [
+      "Verspielt, wenn du magst. Ruhig, wenn du es brauchst.",
+      "Schalte Effekte in der Menüleiste um und wähle eine angenehme Stärke. Folge der Systemeinstellung für reduzierte Bewegung oder reduziere sie dauerhaft.",
+      "Ein Schalter pausiert alle Effekte.",
+      "Mausereignisse werden lokal dargestellt. Zeigerspuren werden weder aufgezeichnet noch hochgeladen."
+    ],
+    "pricing": [
+      "Kostenlos starten. Eigenes gestalten.",
+      "Integrierte Effekte sind kostenlos. Probiere den Editor aus, bevor du das Speichern freischaltest.",
+      "Kostenlos enthalten",
+      "Alle integrierten Vorlagen sowie eigene Erstellung, Bearbeitung und temporäre Vorschau. Ungespeicherte Entwürfe bestehen nur während der laufenden App-Sitzung.",
+      "Einmalig freischalten",
+      "Ein einmaliger In-App-Kauf schaltet das Speichern und Aktivieren eigener Effekte frei. Käufe lassen sich mit demselben Apple Account wiederherstellen.",
+      "Basispreis: 4,99 US$. Lokale Preise und Steuern zeigt der App Store. Kein Abo."
+    ],
+    "privacy": [
+      "Dein Schreibtisch bleibt deiner.",
+      "Keine Konten, Analyse-SDKs oder Werbung. Mausereignisse werden auf deinem Mac zu Effekten und verschwinden wieder. Erfahre, welche Daten lokal bleiben."
+    ],
+    "alts": {
+      "library": "Integrierte Effektbibliothek von MouseEffect mit chinesischer Oberfläche",
+      "editor": "Editor für eigene Effekte mit Aktions- und Partikeleinstellungen auf Chinesisch",
+      "settings": "Allgemeine Einstellungen für Stärke und reduzierte Bewegung auf Chinesisch",
+      "purchase": "Einmalkauf für eigene Effekte mit chinesischer Oberfläche"
+    }
+  },
+  "privacy": {
+    "intro": "Diese Erklärung gilt für die macOS-App MouseEffect und diese Website von Hiimob Apps. Effekte werden lokal verarbeitet. Hier erklären wir die begrenzte Datenverarbeitung bei Käufen, Hosting und Support.",
+    "sections": [
+      [
+        "Mausereignisse nur für direkte Effekte",
+        "Die App beobachtet global Mausbewegungen, Drücken und Loslassen der linken Taste, Ziehen mit links und Drücken der rechten Taste. Daraus erkennt sie Klicks und Doppelklicks. Position, Zeitpunkt und Klickzahl werden nur im Arbeitsspeicher für die sofortige lokale Darstellung genutzt. Es werden keine Zeigerverläufe gespeichert oder Ereignisse hochgeladen."
+      ],
+      [
+        "Was die App nicht überwacht",
+        "MouseEffect überwacht keine globalen Tastatureingaben, macht keine Bildschirmaufnahmen und liest keine Bildschirminhalte. Der Systemzeiger wird weder ersetzt noch abgefangen. Transparente Effektfenster lassen Mauseingaben durch. Normale Eingaben in Textfelder der App dienen nur dem von dir eingegebenen Text."
+      ],
+      [
+        "Einstellungen, Vorlagen und importierte Dateien",
+        "Ausgewählte Vorlage, Stärke und Bewegungseinstellung werden lokal mit UserDefaults gespeichert. Gespeicherte eigene Vorlagen und importierte Partikeldateien liegen im lokalen Sandbox-Verzeichnis Application Support der App. Importierte Bilder werden lokal kopiert und nicht an uns gesendet. Temporäre Entwürfe werden nicht als Vorlagen gespeichert und gelten nur für die laufende Sitzung. Importdateien können bis zur Bereinigung durch die App verbleiben."
+      ],
+      [
+        "Apple verarbeitet Käufe",
+        "StoreKit und der App Store übernehmen Produktdaten, Zahlung, Transaktionsprüfung und Wiederherstellung. Die App liest verifizierte Kaufrechte, um Speichern und Aktivieren freizuschalten. Wir betreiben keinen Zahlungsserver und erhalten keine Kartendaten. Apple verarbeitet Kaufdaten nach eigenen Datenschutzregeln."
+      ],
+      [
+        "Keine Konten, Werbung oder Analyse",
+        "App und Website haben keine Nutzerkonten, Werbung oder Analyse-SDKs. Wir verkaufen keine personenbezogenen Daten, erstellen keine Besucherprofile und verfolgen niemanden über Websites hinweg. Die Website setzt keine Analyse-Cookies und nutzt keinen lokalen Speicher zum Tracking. Es gibt keine Eingabeformulare zur Datenerfassung."
+      ],
+      [
+        "Website-Hosting",
+        "GitHub Pages hostet diese statische Website. GitHub kann grundlegende Hosting- und Sicherheitsprotokolle mit IP-Adresse und technischen Anfragedaten gemäß seiner Datenschutzerklärung verarbeiten. Das ist unabhängig von der lokalen Darstellung der Mauseffekte. Schriften und Dateien werden ohne externe Analyse geladen."
+      ],
+      [
+        "E-Mail-Support",
+        "Bei einer Nachricht an 494763134@qq.com erhalten wir deine Adresse und freiwillig übermittelte Inhalte oder Anhänge. Wir nutzen sie ausschließlich zur Beantwortung und Lösung der Anfrage. E-Mail-Anbieter verarbeiten Zustelldaten nach ihren eigenen Regeln. Sende keine Zahlungszugangsdaten oder unnötigen sensiblen Informationen."
+      ],
+      [
+        "Aufbewahrung, Löschung und Wahlmöglichkeiten",
+        "Lokale Daten bleiben auf deinem Mac, bis du sie löschst oder die App ungenutzte Dateien bereinigt. Eigene Vorlagen kannst du in der App löschen. Die reine Deinstallation kann Sandbox-Daten zurücklassen; der Support hilft bei deren Entfernung. Effekte lassen sich jederzeit pausieren. Supportkorrespondenz bewahren wir nur zur Bearbeitung und Erfüllung gesetzlicher Pflichten auf. Auskunft, Berichtigung und Löschung kannst du per E-Mail anfragen; Rechte richten sich nach geltendem Recht. Apple und GitHub verwalten ihre eigenen Aufzeichnungen."
+      ],
+      [
+        "Sicherheit und Kinder",
+        "Lokale Verarbeitung verringert Übertragungen, doch kein Speicher- oder E-Mail-System ist vollständig sicher. Der Dienst richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von ihnen. Erziehungsberechtigte können uns zu Informationen kontaktieren, die dem Support übermittelt wurden."
+      ],
+      [
+        "Änderungen und Kontakt",
+        "Bei geänderten Verfahren aktualisieren wir diese Seite und ihr Gültigkeitsdatum. Datenschutzfragen und Anfragen bitte an Hiimob Apps, 494763134@qq.com."
+      ]
+    ]
+  },
+  "support": {
+    "intro": "Ein paar Tipps für angenehme Effekte. MouseEffect benötigt macOS 27.0 oder neuer und erscheint bald im Mac App Store. Die App-Oberfläche ist derzeit chinesisch.",
+    "sections": [
+      [
+        "Effekte erscheinen nicht",
+        "Prüfe den Hauptschalter in der App oder Menüleiste und wähle eine integrierte Vorlage. Prüfe, ob die jeweilige Aktion aktiviert ist und Partikelzahl sowie Stärke hoch genug sind. Starte die App bei Bedarf neu. Die reinen Mauseffekte erfordern keine Freigabe für Bedienungshilfen oder Eingabeüberwachung."
+      ],
+      [
+        "Pausieren und Stärke reduzieren",
+        "Der Menüleistenschalter pausiert alle Effekte. Verringere in den allgemeinen Einstellungen die Stärke und wähle die systemgesteuerte oder dauerhafte Bewegungsreduktion. Die Website-Demo hat einen eigenen Pausenschalter und startet bei reduzierter Bewegung im Browser pausiert."
+      ],
+      [
+        "Kostenlose Entwürfe und Einmalkauf",
+        "Integrierte Effekte sowie eigenes Erstellen, Bearbeiten und temporäres Testen sind kostenlos. Ungespeicherte Entwürfe bestehen nur in der laufenden Sitzung. Speichern und reguläres Aktivieren erfordern die einmalige Freischaltung. Ohne gültiges Kaufrecht bleiben ältere Vorlagen sichtbar und löschbar, aber nicht aktivierbar."
+      ],
+      [
+        "Kauf wiederherstellen",
+        "Öffne das Kaufpanel und wähle Käufe wiederherstellen (恢复购买). Nutze den Apple Account des Kaufs und prüfe die Verbindung. Apple prüft die Berechtigung. Bei ausstehender Zahlung warte auf Apples Bestätigung. Kaufe nicht erneut, um ein Wiederherstellungsproblem zu lösen. Kontaktiere uns, falls es bleibt."
+      ],
+      [
+        "Text, Emoji und Bilder importieren",
+        "Wähle im Partikeleditor Text oder Emoji oder importiere gültige PNG-, JPEG- oder SVG-Dateien. Die Quelle darf höchstens 30 MB groß sein und muss die Bildgrößenlimits einhalten. Rasterbilder werden mit maximal 512 Pixeln an der längsten Seite gespeichert. Bei Fehlern verkleinere oder exportiere das Bild neu. Dateien werden lokal kopiert."
+      ],
+      [
+        "Lokale Daten",
+        "Einstellungen, eigene Vorlagen und Dateien bleiben auf deinem Mac. Es gibt keinen Cloud-Sync-Dienst des Entwicklers. Lösche unnötige Vorlagen in der Bibliothek. Frage vor vollständigem Löschen oder einem Mac-Wechsel beim Support nach. Die App zu entfernen kann Sandbox-Daten zurücklassen."
+      ],
+      [
+        "Verfügbarkeit und Sprache",
+        "Die App ist noch nicht veröffentlicht. Sobald sie verfügbar ist, aktualisieren wir den Status der Website. Die Website bietet 14 Sprachen, die native App derzeit Chinesisch. Der Basispreis von 4,99 US$ gilt für einen Einmalkauf. Den tatsächlichen lokalen Preis zeigt der App Store."
+      ],
+      [
+        "Hiimob Apps kontaktieren",
+        "Schreibe an 494763134@qq.com mit macOS- und App-Version, dem Problem und dem erwarteten Verhalten. Screenshots sind freiwillig; entferne private Inhalte vor dem Versand. Sende niemals Passwörter oder Zahlungsdaten. Deine Angaben werden nur zur Bearbeitung der Anfrage genutzt."
+      ]
+    ]
+  },
+  "error": [
+    "Diese Seite hat sich verirrt.",
+    "Zurück zu MouseEffect oder unten eine Sprache wählen."
+  ]
+}

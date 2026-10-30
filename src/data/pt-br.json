@@ -1,0 +1,163 @@
+{
+  "name": "Português (Brasil)",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "nav": {
+    "home": "Visão geral",
+    "privacy": "Privacidade",
+    "support": "Suporte",
+    "language": "Idioma",
+    "skip": "Pular para o conteúdo",
+    "back": "Voltar à visão geral",
+    "contact": "Suporte por e-mail"
+  },
+  "common": {
+    "coming": "Em breve na Mac App Store",
+    "compat": "Para macOS 27.0 ou posterior",
+    "uiNote": "A interface do app está atualmente em chinês.",
+    "screensNote": "Capturas reais do app com interface em chinês.",
+    "updated": "Em vigor a partir de 30 de outubro de 2026",
+    "contents": "Nesta página"
+  },
+  "home": {
+    "eyebrow": "Um pouco de alegria na ponta do cursor.",
+    "title": "Cada movimento,",
+    "accent": "um pouco mais seu.",
+    "description": "Rastros suaves, partículas a cada clique e seu próprio toque. O MouseEffect traz diversão ao Mac, enquanto o cursor funciona como sempre.",
+    "explore": "Conheça o MouseEffect",
+    "demoTitle": "Seu espaço para brincar",
+    "demoHint": "Mova, clique ou arraste aqui. No celular, toque ou deslize.",
+    "demoPause": "Pausar efeitos",
+    "demoPlay": "Ativar efeitos",
+    "demoBurst": "Testar partículas",
+    "demoNote": "Demonstração do site. O app para Mac oferece mais controles.",
+    "gestures": [
+      "Movimento",
+      "Clique",
+      "Clique duplo",
+      "Clique direito",
+      "Arrastar"
+    ],
+    "library": [
+      "Um bom primeiro passo.",
+      "Escolha uma predefinição integrada para animar movimentos, cliques, cliques duplos, cliques direitos e arrastos. O cursor do sistema continua intacto."
+    ],
+    "editor": [
+      "Pequenos detalhes. A sua assinatura.",
+      "Comece com uma predefinição e deixe do seu jeito. Criar, editar e visualizar temporariamente efeitos personalizados é grátis.",
+      "Use texto, Emoji, PNG, JPEG ou SVG como partículas.",
+      "Ajuste cor, tamanho, quantidade, velocidade, dispersão, duração, gravidade e rotação para cada gesto."
+    ],
+    "settings": [
+      "Diversão quando quiser. Silêncio quando precisar.",
+      "Ative os efeitos pela barra de menus e escolha uma intensidade confortável. Siga a opção do sistema para reduzir movimento ou reduza-o sempre.",
+      "Um único botão pausa todos os efeitos.",
+      "Os eventos do mouse são renderizados localmente. Nenhum trajeto é gravado ou enviado."
+    ],
+    "pricing": [
+      "Comece grátis. Faça do seu jeito.",
+      "Os efeitos integrados são gratuitos. Experimente o editor antes de desbloquear o salvamento.",
+      "Incluído gratuitamente",
+      "Todas as predefinições integradas, criação, edição e prévia temporária. Rascunhos não salvos duram somente a sessão atual do app.",
+      "Desbloqueio único",
+      "Uma compra única dentro do app libera salvar e ativar efeitos personalizados. Restaure compras com a mesma Conta Apple.",
+      "Preço base: US$ 4,99. Preços locais e impostos são mostrados na App Store. Sem assinatura."
+    ],
+    "privacy": [
+      "Sua mesa continua sendo sua.",
+      "Sem conta, SDK de análise ou anúncios. Os eventos viram efeitos no Mac e desaparecem. Saiba quais dados ficam no dispositivo."
+    ],
+    "alts": {
+      "library": "Biblioteca de efeitos integrados do MouseEffect com interface em chinês",
+      "editor": "Editor personalizado com controles de gestos e partículas, em chinês",
+      "settings": "Ajustes de intensidade e redução de movimento, em chinês",
+      "purchase": "Painel de compra única dos efeitos personalizados, em chinês"
+    }
+  },
+  "privacy": {
+    "intro": "Esta política abrange o app macOS MouseEffect e este site, operados pela Hiimob Apps. Os efeitos são processados no dispositivo. Abaixo explicamos as informações limitadas relacionadas a compras, hospedagem e suporte.",
+    "sections": [
+      [
+        "Eventos do mouse para efeitos imediatos",
+        "O app observa globalmente movimento, pressão e liberação do botão esquerdo, arrasto esquerdo e pressão do botão direito. A partir disso identifica cliques e cliques duplos. Posição, horário e contagem de cliques são usados em memória para renderização local imediata. Não salvamos históricos do cursor nem enviamos esses eventos."
+      ],
+      [
+        "O que o app não monitora",
+        "O MouseEffect não monitora globalmente o teclado, não captura nem lê a tela e não substitui ou intercepta o cursor. As janelas transparentes dos efeitos deixam os cliques passarem. A digitação normal nos campos do próprio app serve apenas ao texto que você decide inserir."
+      ],
+      [
+        "Ajustes, predefinições e arquivos importados",
+        "Preferências, incluindo efeito escolhido, intensidade e movimento, são salvas localmente com UserDefaults. Predefinições salvas e imagens importadas ficam em Application Support dentro do sandbox local do app. Imagens importadas são copiadas para lá, sem envio ao desenvolvedor. Rascunhos temporários não são salvos como predefinições e duram só a sessão atual. Arquivos importados podem permanecer até a limpeza feita pelo app."
+      ],
+      [
+        "Compras processadas pela Apple",
+        "StoreKit e App Store cuidam dos produtos, pagamentos, verificação e restauração. O app lê o direito de compra verificado para liberar salvamento e ativação. Não operamos servidor de pagamento nem recebemos dados de cartões. A Apple trata os dados de compra conforme sua própria política."
+      ],
+      [
+        "Sem contas, anúncios ou análise",
+        "O app e o site não têm contas, anúncios nem SDKs de análise. Não vendemos dados pessoais, não criamos perfis de visitantes e não fazemos rastreamento entre sites. O site não usa cookies analíticos ou armazenamento local para rastrear e não possui formulários de coleta."
+      ],
+      [
+        "Hospedagem do site",
+        "O GitHub Pages hospeda este site estático. O GitHub pode processar registros básicos de hospedagem e segurança, como IP e dados técnicos das requisições, segundo sua declaração de privacidade. Isso é separado da renderização local dos efeitos. Fontes e recursos são carregados sem análise de terceiros."
+      ],
+      [
+        "Suporte por e-mail",
+        "Ao escrever para 494763134@qq.com, recebemos seu endereço e os conteúdos ou anexos enviados voluntariamente. Usamos essas informações apenas para responder e solucionar o pedido. Provedores de e-mail também processam dados de entrega segundo suas políticas. Não envie credenciais de pagamento ou informações sensíveis desnecessárias."
+      ],
+      [
+        "Retenção, exclusão e escolhas",
+        "Dados locais ficam no Mac até você apagá-los ou o app limpar recursos sem uso. Predefinições personalizadas podem ser excluídas no app. Remover o app pode deixar dados do sandbox; peça ajuda para eliminá-los. Você pode pausar os efeitos a qualquer momento. Mantemos mensagens de suporte somente pelo tempo necessário à solução e às obrigações legais. Solicite acesso, correção ou exclusão por e-mail, conforme a legislação aplicável. Apple e GitHub controlam seus próprios registros."
+      ],
+      [
+        "Segurança e crianças",
+        "O processamento local reduz transferências, mas nenhum armazenamento ou e-mail é totalmente seguro. O serviço não se destina a menores de 13 anos e não coletamos conscientemente seus dados pessoais. Pais ou responsáveis podem entrar em contato sobre informações enviadas ao suporte."
+      ],
+      [
+        "Alterações e contato",
+        "Atualizaremos esta página e sua data se as práticas mudarem. Para dúvidas ou solicitações sobre privacidade: Hiimob Apps, 494763134@qq.com."
+      ]
+    ]
+  },
+  "support": {
+    "intro": "Algumas dicas para deixar os efeitos do seu jeito. O MouseEffect exige macOS 27.0 ou posterior e chega em breve à Mac App Store. A interface atual está em chinês.",
+    "sections": [
+      [
+        "Os efeitos não aparecem",
+        "Confira o botão geral no app ou na barra de menus e escolha uma predefinição integrada. Verifique se o gesto está ativo e se a quantidade de partículas e a intensidade não estão baixas demais. Se necessário, feche e abra o app. Os efeitos de mouse não exigem permissões de Acessibilidade ou Monitoramento de Entrada."
+      ],
+      [
+        "Pausa e intensidade",
+        "O botão da barra de menus pausa todos os efeitos. Reduza a intensidade nos ajustes gerais e siga a redução de movimento do sistema ou reduza sempre. A demo tem sua própria pausa e começa pausada quando o navegador pede menos movimento."
+      ],
+      [
+        "Rascunhos grátis e compra única",
+        "Efeitos integrados, criação, edição e prévia temporária são gratuitos. Rascunhos não salvos duram só a sessão atual. Salvar e ativar efeitos personalizados exige o desbloqueio único. Sem o direito de compra disponível, predefinições antigas ficam visíveis e podem ser apagadas, mas não ativadas."
+      ],
+      [
+        "Restaurar uma compra",
+        "Abra o painel de compra e escolha Restaurar compras (恢复购买). Use a Conta Apple da compra e confira a conexão. A Apple verifica o direito. Se a compra estiver pendente, aguarde a confirmação. Não compre novamente para corrigir uma restauração; procure o suporte se o problema persistir."
+      ],
+      [
+        "Importar texto, Emoji e imagens",
+        "Escolha texto ou Emoji no editor ou importe PNG, JPEG ou SVG válidos. O arquivo de origem deve ter até 30 MB e respeitar os limites de dimensões. Imagens raster são salvas com no máximo 512 pixels no maior lado. Se falhar, use uma imagem menor ou exporte-a novamente. Os recursos são copiados localmente."
+      ],
+      [
+        "Dados locais",
+        "Ajustes, predefinições e recursos ficam no Mac, sem sincronização em nuvem do desenvolvedor. Apague predefinições desnecessárias pela biblioteca. Consulte o suporte antes de apagar todos os dados ou trocar de Mac. Remover apenas o app pode deixar dados do sandbox."
+      ],
+      [
+        "Disponibilidade e idioma",
+        "O app ainda não foi lançado. Atualizaremos o status do site quando estiver disponível. O site oferece 14 idiomas; o app nativo está atualmente em chinês. US$ 4,99 é o preço base de uma compra única. O preço local real aparece na App Store."
+      ],
+      [
+        "Fale com a Hiimob Apps",
+        "Escreva para 494763134@qq.com informando versões do macOS e do app, o problema e o resultado esperado. Capturas são opcionais; remova informações privadas antes do envio. Nunca envie senhas ou dados de pagamento. As informações servem apenas para atender ao pedido."
+      ]
+    ]
+  },
+  "error": [
+    "Esta página se perdeu.",
+    "Volte ao MouseEffect ou escolha seu idioma abaixo."
+  ]
+}

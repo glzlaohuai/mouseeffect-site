@@ -1,0 +1,163 @@
+{
+  "name": "Bahasa Indonesia",
+  "lang": "id",
+  "dir": "ltr",
+  "nav": {
+    "home": "Ringkasan",
+    "privacy": "Privasi",
+    "support": "Bantuan",
+    "language": "Bahasa",
+    "skip": "Lewati ke konten",
+    "back": "Kembali ke ringkasan",
+    "contact": "Bantuan lewat email"
+  },
+  "common": {
+    "coming": "Segera hadir di Mac App Store",
+    "compat": "Untuk macOS 27.0 atau lebih baru",
+    "uiNote": "Antarmuka aplikasi saat ini berbahasa Mandarin.",
+    "screensNote": "Tangkapan layar aplikasi asli dengan antarmuka Mandarin.",
+    "updated": "Berlaku mulai 30 Oktober 2026",
+    "contents": "Di halaman ini"
+  },
+  "home": {
+    "eyebrow": "Sedikit keceriaan di ujung penunjuk.",
+    "title": "Setiap gerakan,",
+    "accent": "lebih mencerminkan Anda.",
+    "description": "Jejak lembut, semburan partikel saat mengeklik, dan sentuhan khas Anda. MouseEffect menghadirkan keceriaan di Mac, sementara penunjuk tetap bekerja seperti biasa.",
+    "explore": "Kenali MouseEffect",
+    "demoTitle": "Ruang untuk bereksperimen",
+    "demoHint": "Gerakkan, klik, atau seret di sini. Di ponsel, ketuk atau usap.",
+    "demoPause": "Jeda efek",
+    "demoPlay": "Aktifkan efek",
+    "demoBurst": "Coba semburan",
+    "demoNote": "Demo interaktif situs. Aplikasi Mac menyediakan lebih banyak pengaturan.",
+    "gestures": [
+      "Gerakan",
+      "Klik",
+      "Klik dua kali",
+      "Klik kanan",
+      "Seret"
+    ],
+    "library": [
+      "Awal yang menyenangkan.",
+      "Pilih preset bawaan untuk gerakan, klik, klik dua kali, klik kanan, dan menyeret. Penunjuk sistem tetap seperti semula."
+    ],
+    "editor": [
+      "Detail kecil. Ciri khas Anda.",
+      "Mulai dari preset, lalu sesuaikan. Membuat, mengedit, dan melihat pratinjau sementara efek kustom tersedia gratis.",
+      "Gunakan teks, Emoji, PNG, JPEG, atau SVG sebagai partikel.",
+      "Atur warna, ukuran, jumlah, kecepatan, sebaran, masa hidup, gravitasi, dan rotasi untuk setiap gerakan."
+    ],
+    "settings": [
+      "Ceria saat diinginkan. Tenang saat dibutuhkan.",
+      "Alihkan efek dari bar menu dan pilih intensitas yang nyaman. Ikuti pengaturan Kurangi Gerakan sistem atau selalu kurangi gerakan.",
+      "Satu sakelar menjeda semua efek.",
+      "Peristiwa mouse dirender secara lokal. Jejak penunjuk tidak direkam atau diunggah."
+    ],
+    "pricing": [
+      "Mulai gratis. Jadikan milik Anda.",
+      "Efek bawaan gratis. Coba editor sebelum membuka fitur penyimpanan.",
+      "Termasuk gratis",
+      "Semua preset bawaan, pembuatan, pengeditan, dan pratinjau sementara. Draf yang belum disimpan hanya bertahan selama sesi aplikasi berjalan.",
+      "Buka dengan satu pembelian",
+      "Pembelian dalam aplikasi satu kali membuka penyimpanan dan pengaktifan efek kustom. Pulihkan pembelian dengan Akun Apple yang sama.",
+      "Harga dasar US$4.99. Harga lokal dan pajak ditampilkan di App Store. Tanpa langganan."
+    ],
+    "privacy": [
+      "Desktop Anda tetap milik Anda.",
+      "Tanpa akun, SDK analitik, atau iklan. Peristiwa mouse menjadi efek di Mac lalu menghilang. Pelajari data yang tetap di perangkat."
+    ],
+    "alts": {
+      "library": "Pustaka efek bawaan MouseEffect dengan antarmuka Mandarin",
+      "editor": "Editor kustom dengan pengaturan gerakan dan partikel dalam bahasa Mandarin",
+      "settings": "Pengaturan intensitas dan pengurangan gerakan dalam bahasa Mandarin",
+      "purchase": "Panel pembelian satu kali efek kustom dalam bahasa Mandarin"
+    }
+  },
+  "privacy": {
+    "intro": "Kebijakan ini mencakup aplikasi macOS MouseEffect dan situs Hiimob Apps ini. Efek diproses di perangkat. Informasi terbatas terkait pembelian, hosting, dan bantuan dijelaskan di bawah.",
+    "sections": [
+      [
+        "Peristiwa mouse hanya untuk efek langsung",
+        "Aplikasi mengamati secara global gerakan mouse, penekanan dan pelepasan tombol kiri, seretan kiri, dan penekanan tombol kanan. Klik dan klik dua kali ditentukan dari peristiwa itu. Posisi, waktu, dan jumlah klik digunakan di memori untuk rendering lokal langsung. Riwayat penunjuk tidak disimpan dan peristiwa tidak diunggah."
+      ],
+      [
+        "Yang tidak dipantau aplikasi",
+        "MouseEffect tidak memantau input papan ketik secara global, mengambil tangkapan layar, membaca layar, mengganti atau mencegat penunjuk sistem. Jendela efek transparan meneruskan input mouse. Pengetikan biasa di kolom aplikasi hanya dipakai untuk teks yang Anda masukkan sendiri."
+      ],
+      [
+        "Pengaturan, preset, dan berkas impor",
+        "Preset pilihan, intensitas, dan preferensi gerakan disimpan secara lokal dengan UserDefaults. Preset kustom tersimpan dan aset impor berada di direktori Application Support dalam sandbox lokal aplikasi. Gambar disalin ke sana, bukan diunggah kepada kami. Draf sementara tidak disimpan sebagai preset dan hanya berlaku selama sesi saat ini. Berkas impor dapat tetap ada hingga dibersihkan aplikasi."
+      ],
+      [
+        "Pembelian ditangani Apple",
+        "StoreKit dan App Store menangani produk, pembayaran, verifikasi transaksi, dan pemulihan. Aplikasi membaca hak pembelian terverifikasi untuk membuka penyimpanan dan pengaktifan. Kami tidak menjalankan server pembayaran atau menerima data kartu Anda. Apple memproses pembelian menurut kebijakannya sendiri."
+      ],
+      [
+        "Tanpa akun, iklan, atau analitik",
+        "Aplikasi dan situs tidak memiliki akun pengguna, iklan, atau SDK analitik. Kami tidak menjual informasi pribadi, membuat profil pengunjung, atau melacak lintas situs. Situs tidak memakai cookie analitik atau penyimpanan lokal untuk pelacakan dan tidak memiliki formulir pengumpulan informasi."
+      ],
+      [
+        "Hosting situs",
+        "GitHub Pages menghosting situs statis ini. GitHub dapat memproses log dasar hosting dan keamanan, termasuk alamat IP serta informasi teknis permintaan, menurut pernyataan privasinya. Hal ini terpisah dari rendering mouse lokal. Font dan aset dimuat tanpa analitik pihak ketiga."
+      ],
+      [
+        "Bantuan melalui email",
+        "Jika Anda menulis ke 494763134@qq.com, kami menerima alamat serta isi dan lampiran yang Anda berikan secara sukarela. Kami menggunakannya hanya untuk menjawab dan menyelesaikan permintaan. Penyedia email juga memproses data pengiriman menurut kebijakannya. Jangan kirim kredensial pembayaran atau informasi sensitif yang tidak perlu."
+      ],
+      [
+        "Penyimpanan, penghapusan, dan pilihan",
+        "Data lokal tetap di Mac hingga Anda hapus atau aplikasi membersihkan aset tak terpakai. Preset kustom dapat dihapus di aplikasi. Menghapus aplikasi saja mungkin menyisakan data sandbox; hubungi bantuan untuk menghapusnya. Efek dapat dijeda kapan saja. Korespondensi disimpan hanya selama diperlukan untuk penyelesaian dan kewajiban hukum. Minta akses, koreksi, atau penghapusan melalui email sesuai hukum yang berlaku. Apple dan GitHub mengendalikan catatan masing-masing."
+      ],
+      [
+        "Keamanan dan anak-anak",
+        "Pemrosesan lokal mengurangi transfer, tetapi tidak ada penyimpanan atau email yang sepenuhnya aman. Layanan tidak ditujukan untuk anak di bawah 13 tahun dan kami tidak sengaja mengumpulkan data mereka. Orang tua dapat menghubungi kami terkait informasi yang dikirim melalui bantuan."
+      ],
+      [
+        "Perubahan dan kontak",
+        "Kami akan memperbarui halaman dan tanggal berlakunya jika praktik berubah. Untuk pertanyaan atau permintaan privasi, hubungi Hiimob Apps di 494763134@qq.com."
+      ]
+    ]
+  },
+  "support": {
+    "intro": "Beberapa cara agar efek terasa nyaman. MouseEffect memerlukan macOS 27.0 atau lebih baru dan segera hadir di Mac App Store. Antarmukanya saat ini berbahasa Mandarin.",
+    "sections": [
+      [
+        "Efek tidak muncul",
+        "Periksa sakelar utama di aplikasi atau bar menu lalu pilih preset bawaan. Pastikan efek gerakan terkait aktif dan jumlah partikel serta intensitas tidak terlalu rendah. Tutup dan buka ulang aplikasi jika perlu. Efek khusus mouse tidak memerlukan izin Aksesibilitas atau Pemantauan Input."
+      ],
+      [
+        "Jeda dan intensitas",
+        "Sakelar bar menu menjeda semua efek. Turunkan intensitas pada pengaturan umum dan pilih mengikuti pengurangan gerakan sistem atau selalu menguranginya. Demo situs memiliki jeda sendiri dan dimulai dalam keadaan dijeda jika browser meminta pengurangan gerakan."
+      ],
+      [
+        "Draf gratis dan pembelian satu kali",
+        "Efek bawaan, pembuatan, pengeditan, dan pratinjau sementara gratis. Draf belum tersimpan hanya bertahan selama sesi saat ini. Penyimpanan dan pengaktifan resmi memerlukan pembelian satu kali. Saat hak tidak tersedia, preset tersimpan tetap terlihat dan dapat dihapus, tetapi tidak diaktifkan."
+      ],
+      [
+        "Pulihkan pembelian",
+        "Buka panel pembelian dan pilih Pulihkan Pembelian (恢复购买). Gunakan Akun Apple pembelian asli dan periksa jaringan. Apple memverifikasi hak. Jika pembelian tertunda, tunggu konfirmasi. Jangan membeli lagi untuk memperbaiki pemulihan; hubungi bantuan jika masalah berlanjut."
+      ],
+      [
+        "Impor teks, Emoji, dan gambar",
+        "Pilih teks atau Emoji dalam editor atau impor PNG, JPEG, SVG yang valid. Berkas sumber maksimal 30 MB dan harus memenuhi batas dimensi. Gambar raster disimpan dengan sisi terpanjang maksimal 512 piksel. Jika gagal, coba gambar lebih kecil atau ekspor ulang ke format yang didukung. Aset disalin secara lokal."
+      ],
+      [
+        "Data lokal",
+        "Pengaturan, preset, dan aset disimpan di Mac tanpa sinkronisasi cloud pengembang. Hapus preset tak diperlukan dari pustaka. Hubungi bantuan sebelum menghapus semua data atau berpindah Mac. Menghapus aplikasi saja mungkin menyisakan data sandbox."
+      ],
+      [
+        "Ketersediaan dan bahasa",
+        "Aplikasi belum dirilis. Status situs akan diperbarui saat tersedia. Situs menawarkan 14 bahasa, sedangkan aplikasi native saat ini berbahasa Mandarin. US$4.99 adalah harga dasar pembelian satu kali. Harga lokal sebenarnya ditampilkan di App Store."
+      ],
+      [
+        "Hubungi Hiimob Apps",
+        "Tulis ke 494763134@qq.com dengan versi macOS dan aplikasi, masalah, serta hasil yang diharapkan. Tangkapan layar opsional; hapus informasi pribadi sebelum mengirimnya. Jangan kirim kata sandi atau data pembayaran. Informasi hanya digunakan untuk menangani permintaan bantuan."
+      ]
+    ]
+  },
+  "error": [
+    "Halaman ini tidak ditemukan.",
+    "Kembali ke MouseEffect atau pilih bahasa di bawah."
+  ]
+}

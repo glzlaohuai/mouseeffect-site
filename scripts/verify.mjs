@@ -2,6 +2,7 @@ import {readFile,readdir,stat} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const dataFiles=(await readdir('src/data')).filter(f=>f.endsWith('.json'));
 const shape=x=>Array.isArray(x)?Array.isArray(x[0])?x.map(shape):x.map(v=>typeof v):x&&typeof x==='object'?Object.fromEntries(Object.keys(x).sort().map(k=>[k,shape(x[k])])):typeof x;
+assert.deepEqual(dataFiles.map(f=>f.replace('.json','')).sort(),['en','zh-hans','zh-hant','ja','ko','fr','de','es','pt-br','ru','ar','id','th','vi'].sort(),'all fourteen locales required');
 const english=JSON.parse(await readFile('src/data/en.json','utf8'));
 for(const file of dataFiles){
  const code=file.replace('.json','');
