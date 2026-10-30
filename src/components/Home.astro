@@ -1,0 +1,46 @@
+---
+import {existsSync} from 'node:fs';
+import Layout from '../layouts/Layout.astro';
+import {pathFor,type Locale} from '../data/locales';
+const {locale:l} = Astro.props as {locale:Locale};
+const h=l.home;
+const hasScreens=existsSync('public/images/library.webp');
+---
+<Layout locale={l}>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy"><p class="eyebrow"><span aria-hidden="true" class="tiny-spark">✳</span> {h.eyebrow}</p>
+      <h1 id="hero-title">{h.title} <span>{h.accent}</span></h1>
+      <p class="lead">{h.description}</p>
+      <div class="release"><span class="status-dot" aria-hidden="true"></span>{l.common.coming}</div>
+      <p class="compat">{l.common.compat}<br />{l.common.uiNote}</p>
+      <a class="text-link" href="#discover">{h.explore}<span aria-hidden="true"> ↓</span></a>
+    </div>
+    <div class="demo-shell" data-demo data-paused="false" data-play={h.demoPlay} data-pause={h.demoPause}>
+      <div class="demo-top"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>{h.demoTitle}</span><span class="demo-mark" aria-hidden="true">✳</span></div>
+      <div class="demo-stage" id="particle-stage"><canvas aria-hidden="true"></canvas>
+        <svg class="cursor-art" viewBox="0 0 280 240" fill="none" aria-hidden="true"><g class="static-particles" fill="currentColor"><circle cx="52" cy="180" r="5"/><circle cx="78" cy="156" r="3"/><circle cx="104" cy="177" r="7"/><circle cx="127" cy="139" r="4"/><circle cx="96" cy="199" r="3"/><path d="m155 85 3 8 8 3-8 3-3 8-3-8-8-3 8-3ZM197 56l4 11 11 4-11 4-4 11-4-11-11-4 11-4ZM61 113l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/></g><path d="m129 90 4 69 18-18 15 28 14-8-16-27 26-3-61-41Z" fill="oklch(0.99 0.003 60)" stroke="oklch(0.27 0.025 40)" stroke-width="5" stroke-linejoin="round"/></svg>
+        <p class="demo-hint">{h.demoHint}</p>
+      </div>
+      <div class="demo-controls"><button type="button" class="quiet-button" data-toggle aria-pressed="false" aria-controls="particle-stage">{h.demoPause}</button><button type="button" class="burst-button" data-burst>{h.demoBurst}<span aria-hidden="true"> ✳</span></button></div>
+      <p class="demo-note">{h.demoNote}</p>
+    </div>
+  </section>
+  <section id="discover" class="discover wrap" aria-labelledby="library-title">
+    <div class="section-intro"><p class="section-number">01 / MouseEffect</p><div><h2 id="library-title">{h.library[0]}</h2><p>{h.library[1]}</p></div></div>
+    <ul class="gestures">{h.gestures.map((gesture,i)=><li><span aria-hidden="true">{['↗','·','∶','⌁','↝'][i]}</span>{gesture}</li>)}</ul>
+    {hasScreens && <figure class="screenshot library-shot"><img src="/images/library.webp" width="1440" height="1000" alt={h.alts.library} loading="lazy" decoding="async" /><figcaption>{l.common.screensNote}</figcaption></figure>}
+  </section>
+  <section class="feature feature-editor wrap" aria-labelledby="editor-title">
+    <div class="feature-copy"><p class="section-number">02 / MouseEffect</p><h2 id="editor-title">{h.editor[0]}</h2><p>{h.editor[1]}</p><ul class="feature-list"><li>{h.editor[2]}</li><li>{h.editor[3]}</li></ul><div class="format-samples" aria-hidden="true"><span>Aa</span><span>✳</span><span>✨</span><span>SVG</span></div></div>
+    {hasScreens && <figure class="screenshot"><img src="/images/editor.webp" width="1440" height="1000" alt={h.alts.editor} loading="lazy" decoding="async" /></figure>}
+  </section>
+  <section class="feature feature-settings wrap" aria-labelledby="settings-title">
+    <div class="feature-copy"><p class="section-number">03 / MouseEffect</p><h2 id="settings-title">{h.settings[0]}</h2><p>{h.settings[1]}</p><ul class="feature-list"><li>{h.settings[2]}</li><li>{h.settings[3]}</li></ul></div>
+    {hasScreens && <figure class="screenshot"><img src="/images/settings.webp" width="1440" height="1000" alt={h.alts.settings} loading="lazy" decoding="async" /></figure>}
+  </section>
+  <section class="pricing-band"><div class="wrap pricing"><div><p class="eyebrow">MouseEffect</p><h2>{h.pricing[0]}</h2><p>{h.pricing[1]}</p><div class="release"><span class="status-dot" aria-hidden="true"></span>{l.common.coming}</div><p class="compat">{l.common.compat}</p></div><div class="purchase-details"><div><h3>{h.pricing[2]}</h3><p>{h.pricing[3]}</p></div><div><h3>{h.pricing[4]}</h3><p>{h.pricing[5]}</p><p class="price-note">{h.pricing[6]}</p></div></div></div></section>
+  <section class="privacy-callout wrap"><span class="privacy-symbol" aria-hidden="true">⌘</span><div><h2>{h.privacy[0]}</h2><p>{h.privacy[1]}</p><a class="text-link" href={pathFor(l.code,'privacy')}>{l.nav.privacy}<span aria-hidden="true"> ↗</span></a></div><a class="text-link" href={pathFor(l.code,'support')}>{l.nav.support}<span aria-hidden="true"> ↗</span></a></section>
+</main>
+<script src="../scripts/particles.ts"></script>
+</Layout>

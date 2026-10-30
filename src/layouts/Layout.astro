@@ -1,0 +1,61 @@
+---
+import {locales, pathFor, domain, type Locale, type PageKind} from '../data/locales';
+import '../styles/global.css';
+interface Props {locale:Locale;page?:PageKind;noindex?:boolean;}
+const {locale:l,page='home',noindex=false} = Astro.props;
+const title = page==='home' ? `MouseEffect · ${l.home.eyebrow}` : `${l.nav[page]} · MouseEffect`;
+const description = page==='home' ? l.home.description : l[page].intro;
+const canonical = domain + pathFor(l.code,page);
+---
+<!doctype html>
+<html lang={l.lang} dir={l.dir}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#faf9f7" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  {noindex ? <meta name="robots" content="noindex,follow" /> : <>
+    <link rel="canonical" href={canonical} />
+    {locales.map(other => <link rel="alternate" hreflang={other.lang} href={domain+pathFor(other.code,page)} />)}
+    <link rel="alternate" hreflang="x-default" href={domain+pathFor('en',page)} />
+  </>}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={domain+'/images/icon.png'} />
+  <meta property="og:image:alt" content="MouseEffect" />
+  <meta name="twitter:card" content="summary" />
+</head>
+<body>
+  <a class="skip" href="#main">{l.nav.skip}</a>
+  <header class="site-header wrap">
+    <a href={pathFor(l.code)} class="brand" aria-label="MouseEffect"><img src="/images/icon.png" width="36" height="36" alt="" />MouseEffect</a>
+    <nav aria-label={l.nav.home} class="main-nav">
+      <a href={pathFor(l.code)} aria-current={page==='home'?'page':undefined}>{l.nav.home}</a>
+      <a href={pathFor(l.code,'privacy')} aria-current={page==='privacy'?'page':undefined}>{l.nav.privacy}</a>
+      <a href={pathFor(l.code,'support')} aria-current={page==='support'?'page':undefined}>{l.nav.support}</a>
+    </nav>
+    <div class="language-switch">
+      <label for="language"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="sr-only">{l.nav.language}</span></label>
+      <select id="language" aria-label={l.nav.language}>
+        {locales.map(other => <option value={pathFor(other.code,page)} selected={other.code===l.code} lang={other.lang}>{other.name}</option>)}
+      </select>
+    </div>
+  </header>
+  <slot />
+  <footer class="site-footer wrap">
+    <div><a class="brand" href={pathFor(l.code)}><img src="/images/icon.png" width="28" height="28" alt="" />MouseEffect</a><p>© 2026 Hiimob Apps</p></div>
+    <nav aria-label={l.nav.support}><a href={pathFor(l.code,'privacy')}>{l.nav.privacy}</a><a href={pathFor(l.code,'support')}>{l.nav.support}</a><a href="mailto:494763134@qq.com">{l.nav.contact}<span aria-hidden="true"> ↗</span></a></nav>
+    <details class="all-languages"><summary>{l.nav.language}</summary><ul>{locales.map(other=><li><a lang={other.lang} href={pathFor(other.code,page)} aria-current={other.code===l.code?'true':undefined}>{other.name}</a></li>)}</ul></details>
+  </footer>
+  <script>
+    document.querySelector<HTMLSelectElement>('#language')?.addEventListener('change', (event) => {
+      const value=(event.target as HTMLSelectElement).value;
+      if (value.startsWith('/') && !value.startsWith('//')) window.location.assign(value);
+    });
+  </script>
+</body>
+</html>

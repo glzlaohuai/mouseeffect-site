@@ -1,0 +1,22 @@
+{
+  "name": "mouseeffect-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro check && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.4.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@axe-core/playwright": "^4.14.0",
+    "@types/node": "^26.6.6",
+    "playwright": "^1.64.1",
+    "typescript": "^5.9.3"
+  }
+}
